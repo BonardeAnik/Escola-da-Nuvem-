@@ -52,6 +52,15 @@ h1 {
   font-family: "Sintony", sans-serif;
 }
 
+strong{
+  color: #03244e;
+}
+
+a{
+  color: #03244e;
+  text-decoration: none;
+}
+
 .nome-integrante {
   text-transform: uppercase;
   margin-bottom: -15px;
@@ -60,20 +69,77 @@ h1 {
 
 .descricao-integrante {
   color: #03244e;
+  font-style: italic;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .card-integrante {
   padding: 30px;
+  margin-top: 5
+  0px;
 }
 
-button {
+.linha-divisao{
+  width: 900px;
+  height: 0.1px;
+  background-color: #DCDCDC;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.experiencia{
+  color: #03244e;
+  font-family: 'Sintony', sans-serif;  
+
+}
+
+button a {
   background-color: #03244e;
   width: 200px;
-  height: 30px;
+  height: 40px;
   border-radius: 5px 5px;
   border: none;
   margin-left: 20px;
   color: #ffffff;
+  font-family: 'Sintony', sans-serif;  
+  text-align: center;
+}
+
+a{
+  border: none;
+  width: 50px;
+  background-color: #03244e;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px 5px;
+  border: none;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: 'Sintony', sans-serif;  
+  text-align: center;
+
+}
+
+a p{
+  margin-top: 10px;
+}
+
+#linkedin{
+color: #03244e;
+background-color: #ffffff;
+}
+
+a:hover{
+  background-color: #1169C2 ;
+  transition: 500ms linear;
+
+}
+
+.inf p{
+  line-height: 10px;
 }
 
 .botoes {
@@ -84,6 +150,4 @@ button {
   align-content: center;
 }
 
-.icon {
-  size: 30px;
-}
+
